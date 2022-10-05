@@ -54,7 +54,7 @@ function Header() {
                 <div>
                   <button type="button" class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                     {/* <span class="sr-only">Open user menu</span> */}
-                    <img class="h-8 w-8 rounded-full bg-black" src="https://alexshevlin.dev/static/media/alexsmile.c63ec37de53c50649f90.png" alt="" />
+                    <img class="h-12 w-12 rounded-full bg-black" src="https://alexshevlin.dev/static/media/alexsmile.c63ec37de53c50649f90.png" alt="" />
                   </button>
                 </div>
 

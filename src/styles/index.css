@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .drop-shadow {
-  filter: drop-shadow(-1px 0px 2px black);
+  filter: drop-shadow(-1px 0px 5px rgba(0, 0, 0, 0.527));
 }
