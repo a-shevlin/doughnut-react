@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  /* background-image: url("https://cdn.discordapp.com/attachments/396534600521744397/1027306734554972220/recycledpaper.png"); */
+  background-color: blue;
+}
