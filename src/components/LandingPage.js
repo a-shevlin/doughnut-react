@@ -2,12 +2,13 @@ import React from "react";
 import clicker from '../downloads/doughnut-clicker.zip'
 import pov_1 from '../img/pov_1.png'
 import pov_2 from '../img/pov_2.png'
+import gear from '../img/gear-gray.png'
 
 function LandingPage() {
   return (
     <React.Fragment>
       {/* <!-- Section 2 --> */}
-      <section class="px-2 py-10 bg-gray-700 md:px-0">
+      <section class="px-2 py-10 bg-gray-800 md:px-0">
         <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
           <div class="flex flex-wrap items-center sm:-mx-3">
             <div class="w-full md:w-1/2 md:px-3">
@@ -21,7 +22,7 @@ function LandingPage() {
                   <a href="#_" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-blue-500 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto">
                     Code
                   </a>
-                  <a href={clicker} class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">
+                  <a href={clicker} class="flex items-center px-6 py-3 text-gray-100 bg-gray-600 rounded-md hover:bg-gray-200 hover:text-gray-600">
                     Download
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
@@ -44,51 +45,53 @@ function LandingPage() {
           <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 
               {/* <!-- Image --> */}
-              <div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10 rounded-md">
-                  <img src={pov_1}/>
+              <div class="w-full md:w-1/2">
+              <div class="w-3/4 h-auto m-auto overflow-hidden rounded-md  sm:rounded-xl">
+                  <img class="drop-shadow" src={gear} />
+                </div>
               </div>
 
               {/* <!-- Content --> */}
               <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
-                  <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-                      Boost Productivity
+                  <h2 class="m-0 text-gray-200 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+                      Alpha V 1.0
                   </h2>
                   <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-                      Build an atmosphere that creates productivity in your organization and your company culture.
+                      
                   </p>
                   <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-                      <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Maximize productivity and growth
+                      <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blue-400 rounded-full"><span class="text-sm font-bold">✓</span></span> Generates doughnuts on click!
                       </li>
-                      <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Speed past your competition
+                      <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blue-400 rounded-full"><span class="text-sm font-bold">✓</span></span> Auto generate from bought buildings
                       </li>
-                      <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Learn the top techniques
+                      <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blue-400 rounded-full"><span class="text-sm font-bold">✓</span></span> Increase clicks on building upgrade
                       </li>
                   </ul>
               </div>
               {/* <!-- End  Content --> */}
           </div>
-          <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
+          <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-white border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
 
               {/* <!-- Content --> */}
-              <div class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
+              <div class="box-border w-full text-gray-200 border-solid md:w-1/2 md:pl-6 xl:pl-32">
                   <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-                      Automated Tasks
+                      Artwork
                   </h2>
-                  <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
-                      Save time and money with our revolutionary services. We are the leaders in the industry.
+                  <p class="pt-4 pb-8 m-0 leading-7 text-gray-300 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+                      All drawn using MS Paint
                   </p>
                   <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-                      <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Automated task management workflow
+                      <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blue-400 rounded-full"><span class="text-sm font-bold">✓</span></span> Button Icons
                       </li>
-                      <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Detailed analytics for your data
+                      <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blue-400 rounded-full"><span class="text-sm font-bold">✓</span></span> Wall and Ground Textures
                       </li>
-                      <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
-                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span class="text-sm font-bold">✓</span></span> Some awesome integrations
+                      <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                          <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blue-400 rounded-full"><span class="text-sm font-bold">✓</span></span> Work In Progress Counter and Leaderboard
                       </li>
                   </ul>
               </div>

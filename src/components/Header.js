@@ -4,7 +4,7 @@ import clicker from '../downloads/doughnut-clicker.zip'
 function Header() {
   return (
     <React.Fragment>
-      <nav class="bg-gray-800">
+      <nav class="bg-gray-900">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div class="relative flex h-16 items-center justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -41,9 +41,9 @@ function Header() {
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-4">
                   {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                  <a href={clicker} class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">GitHub</a>
+                  <a href={clicker} class="bg-gray-600 text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">GitHub</a>
 
-                  <a href="https://alexshevlin.dev/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" target="_blank">Portfolio</a>
+                  <a href="https://alexshevlin.dev/" class="bg-gray-600 text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" target="_blank">Portfolio</a>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ function Header() {
                 <div>
                   <button type="button" class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                     {/* <span class="sr-only">Open user menu</span> */}
-                    <img class="h-8 w-8 rounded-full bg-gray-900" src="https://alexshevlin.dev/static/media/alexsmile.c63ec37de53c50649f90.png" alt="" />
+                    <img class="h-8 w-8 rounded-full bg-black" src="https://alexshevlin.dev/static/media/alexsmile.c63ec37de53c50649f90.png" alt="" />
                   </button>
                 </div>
 

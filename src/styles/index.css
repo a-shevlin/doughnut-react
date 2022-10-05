@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-
+.drop-shadow {
+  filter: drop-shadow(-1px 0px 2px black);
 }
