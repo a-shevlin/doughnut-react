@@ -34,19 +34,19 @@ function Testimonial() {
 							<div class="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
 								<div class="flex items-center justify-center">
 									<div class="w-16 h-16 mr-4 overflow-hidden bg-gray-600 rounded-full">
-										<img src={seung} class="object-cover w-full h-full" />
+										<img src={marl} class="object-cover w-full h-full" />
 									</div>
 									<div class="flex flex-col items-start justify-center">
 										<h4 class="font-bold text-gray-100">Seung Lee</h4>
 										<p class="text-gray-300">CTO of Business</p>
 									</div>
 								</div>
-								<blockquote class="mt-8 text-lg text-gray-200">"Sorry I'm unable to get to the phone right now. Please leave your name and number and I'll get back to you as soon as possible."</blockquote>
+								<blockquote class="mt-8 text-lg text-gray-200">"I'm Turtle Matt and this is my favorite game on the Citadel."</blockquote>
 							</div>
 							<div class="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
 								<div class="flex items-center justify-center">
 									<div class="w-16 h-16 mr-4 overflow-hidden bg-gray-600 rounded-full">
-										<img src={marl} class="object-cover w-full h-full" />
+										<img src={seung} class="object-cover w-full h-full" />
 									</div>
 									<div class="flex flex-col items-start justify-center">
 										<h4 class="font-bold text-gray-100">Matt Herbert</h4>
