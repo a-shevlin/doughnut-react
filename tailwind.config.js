@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'grayB': '#3e4a5c',
+        'grayB': {
+          500: '#4c596e',
+          600: '#465469',
+          700: '#3e4a5c',
+        },
       },
     },
   },
