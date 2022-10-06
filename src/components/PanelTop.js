@@ -1,6 +1,6 @@
 import React from 'react';
 import pov_2 from '../img/pov_2.png';
-import clicker from '../downloads/doughnut-clicker.zip';
+import clicker from '../downloads/doughnut-clicker-V1.zip';
 
 function PanelTop(){
   return (
