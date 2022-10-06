@@ -1,5 +1,5 @@
 import React from "react";
-import marl from '../img/marl.png';
+import logo from "../img/ads_logo.png"
 
 function Header() {
   return (
@@ -35,13 +35,13 @@ function Header() {
             </div>
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div class="flex flex-shrink-0 items-center">
-                <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
-                <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+                <img class="block h-8 w-auto lg:hidden" src={logo} alt="Your Company" />
+                <img class="hidden h-8 w-auto lg:block" src={logo} alt="Your Company" />
               </div>
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-4">
                   {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                  <a href="https://github.com/a-shevlin" class="bg-gray-600 text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">GitHub</a>
+                  <a href="https://github.com/a-shevlin" class="bg-gray-600 text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page" target="_blank">GitHub</a>
 
                   <a href="https://alexshevlin.dev/" class="bg-gray-600 text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" target="_blank">Portfolio</a>
                 </div>
