@@ -14,9 +14,9 @@ function PanelTop(){
                   <span class="block text-gray-300 xl:inline">Doughnut Clicker</span>
                   <span class="block text-blue-200 xl:inline">File Info Here.</span>
                 </h1>
-                <p class="mx-auto text-base text-gray-200 sm:max-w-md lg:text-xl md:max-w-3xl">Game made with python and Ursina Library.</p>
+                <p class="mx-auto text-base text-gray-200 sm:max-w-md lg:text-xl md:max-w-3xl">Game made with Python3 and Ursina Library.</p>
                 <div class="relative flex flex-col sm:flex-row sm:space-x-4">
-                  <a href="#_" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-blue-500 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto">
+                  <a href="https://github.com/a-shevlin/Doughnut-Clicker" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-blue-500 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto" target="_blank">
                     Code
                   </a>
                   <a href={clicker} class="flex items-center px-6 py-3 text-gray-100 bg-gray-600 rounded-md hover:bg-gray-200 hover:text-gray-600">
