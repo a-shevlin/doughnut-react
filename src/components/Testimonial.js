@@ -53,7 +53,7 @@ function Testimonial() {
 										<p class="text-gray-300">Creator of Stuff</p>
 									</div>
 								</div>
-								<blockquote class="mt-8 text-lg text-gray-200">"At least it's not broken. Definitely a game that loads."</blockquote>
+								<blockquote class="mt-8 text-lg text-gray-200">"At least it's not broken. Hard work does not equal success."</blockquote>
 							</div>
 						</div>
 					</div>
