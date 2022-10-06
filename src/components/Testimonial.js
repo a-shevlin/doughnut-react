@@ -37,11 +37,11 @@ function Testimonial() {
 										<img src={seung} class="object-cover w-full h-full" />
 									</div>
 									<div class="flex flex-col items-start justify-center">
-										<h4 class="font-bold text-gray-100">Jane Doe</h4>
+										<h4 class="font-bold text-gray-100">Seung Lee</h4>
 										<p class="text-gray-300">CTO of Business</p>
 									</div>
 								</div>
-								<blockquote class="mt-8 text-lg text-gray-200">"Insert Quote Here"</blockquote>
+								<blockquote class="mt-8 text-lg text-gray-200">"Sorry I'm unable to get to the phone right now. Please leave your name and number and I'll get back to you as soon as possible."</blockquote>
 							</div>
 							<div class="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
 								<div class="flex items-center justify-center">
@@ -49,11 +49,11 @@ function Testimonial() {
 										<img src={marl} class="object-cover w-full h-full" />
 									</div>
 									<div class="flex flex-col items-start justify-center">
-										<h4 class="font-bold text-gray-100">John Smith</h4>
+										<h4 class="font-bold text-gray-100">Matt Herbert</h4>
 										<p class="text-gray-300">Creator of Stuff</p>
 									</div>
 								</div>
-								<blockquote class="mt-8 text-lg text-gray-200">"Insert Quote Here"</blockquote>
+								<blockquote class="mt-8 text-lg text-gray-200">"At least it's not broken. Definitely a game that loads."</blockquote>
 							</div>
 						</div>
 					</div>
